@@ -12,21 +12,15 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "MIT",
-	"icon": "assets/pandamod/icon.png",
+	"icon": "assets/capechanger/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"max.panda.pandamod.PandaMod"
-		],
-		"client": [
-			"max.panda.pandamod.PandaModClient"
-		],
-		"fabric-datagen": [
-			"max.panda.pandamod.PandaModDataGenerator"
+			"max.panda.capechanger.CapeChanger"
 		]
 	},
 	"mixins": [
-		"pandamod.mixins.json"
+		"capechanger.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.14.22",

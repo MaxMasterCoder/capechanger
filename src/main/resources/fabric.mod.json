@@ -17,6 +17,9 @@
 	"entrypoints": {
 		"main": [
 			"max.panda.capechanger.CapeChanger"
+		],
+		"client": [
+			"max.panda.capechanger.CapeChangerClient"
 		]
 	},
 	"mixins": [

@@ -11,6 +11,7 @@ import org.slf4j.LoggerFactory;
 public class CapeChanger implements ModInitializer {
 
 	public static final String MOD_ID = "capechanger";
+	public static boolean CAPE_ON = true;
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	@Override
@@ -21,7 +22,7 @@ public class CapeChanger implements ModInitializer {
 	public static Identifier getResourcePackCape() {
 		try {
 			var cape = new Identifier("capechanger", "cape.png");
-			if (MinecraftClient.getInstance().getResourceManager().getResource(cape).isPresent()) {
+			if (MinecraftClient.getInstance().getResourceManager().getResource(cape).isPresent() && CAPE_ON) {
 				return cape;
 			}
 		} catch (Exception ignored) {

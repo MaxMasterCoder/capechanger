@@ -19,7 +19,7 @@ public class CapeChanger implements ModInitializer {
 	}
 
 	@Nullable
-	public static Identifier getResourcePackCape() {
+	public static Identifier getDirCape() {
 		try {
 			var cape = new Identifier("capechanger", "cape.png");
 			if (MinecraftClient.getInstance().getResourceManager().getResource(cape).isPresent() && CAPE_ON) {

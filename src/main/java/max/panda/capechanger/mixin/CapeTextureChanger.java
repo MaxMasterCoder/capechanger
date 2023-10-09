@@ -20,7 +20,8 @@ public abstract class CapeTextureChanger extends PlayerEntity {
 
     @ModifyReturnValue(method = "getSkinTextures", at = @At("TAIL"))
     protected SkinTextures useCapeIfPresent(SkinTextures original) {
-        var cape = CapeChanger.getResourcePackCape();
+        var cape = CapeChanger.getDirCape();
+
         if (cape == null) {
             return original;
         }

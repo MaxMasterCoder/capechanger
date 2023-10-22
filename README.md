@@ -7,7 +7,7 @@ This mod allows you to put on or change your cape. This mod is completely client
 ## How to use
 The default key to open the CapeChanger gui is 'R'. You can customise this in Key Binds.  
 To customise the cape texture you have to go through a few steps. 
-> Note, this is not a resource pack tutorial.     
+> Note, this is not an official resource pack tutorial.     
  
 First, create a folder in `%appdata%/.minecraft/resourcepacks`.  
 Now create a `pack.mcmeta` file inside the new folder.

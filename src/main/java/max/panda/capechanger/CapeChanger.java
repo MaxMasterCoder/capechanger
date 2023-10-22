@@ -5,6 +5,7 @@ import net.fabricmc.api.Environment;
 import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.client.MinecraftClient;
+import net.minecraft.client.world.ClientWorld;
 import net.minecraft.util.Identifier;
 import org.jetbrains.annotations.Nullable;
 import org.slf4j.Logger;
